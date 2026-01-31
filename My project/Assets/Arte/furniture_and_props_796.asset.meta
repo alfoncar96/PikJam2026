@@ -11,5 +11,9 @@ AssetOrigin:
   productId: 340276
   packageName: Epic RPG World - Free House Interiors
   packageVersion: 1.0
+<<<<<<< HEAD
   assetPath: Assets/RafaelMatos/ERW - Village(interiors)/assets/Tile Palette/furniture_and_props_796.asset
+=======
+  assetPath: Assets/Arte/furniture_and_props_796.asset
+>>>>>>> 491b43330c99429bd9e51e3953f56e28bbdda22e
   uploadId: 846012

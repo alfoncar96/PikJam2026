@@ -1,10 +1,15 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: ca1f1e20c71399f4ab9c815c2528cc1c
+=======
+guid: ae9604bb7c83a7f4cb3ae2abd7a94dde
+>>>>>>> 491b43330c99429bd9e51e3953f56e28bbdda22e
 AssetOrigin:
   serializedVersion: 1
   productId: 167274
   packageName: RPG Worlds Caves
   packageVersion: 2.0
+<<<<<<< HEAD
   assetPath: Assets/RPGW_Caves/Sliced/decorative.png
   uploadId: 435856
 TextureImporter:
@@ -540,6 +545,12 @@ TextureImporter:
   - first:
       213: 21300352
     second: decorative_176
+=======
+  assetPath: Assets/RPGW_Caves/decorative.png
+  uploadId: 435856
+TextureImporter:
+  internalIDToNameTable: []
+>>>>>>> 491b43330c99429bd9e51e3953f56e28bbdda22e
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -581,7 +592,11 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
+<<<<<<< HEAD
   spriteMode: 2
+=======
+  spriteMode: 1
+>>>>>>> 491b43330c99429bd9e51e3953f56e28bbdda22e
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -646,6 +661,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
+<<<<<<< HEAD
     sprites:
     - serializedVersion: 2
       name: decorative_0
@@ -4541,11 +4557,18 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+=======
+    sprites: []
+>>>>>>> 491b43330c99429bd9e51e3953f56e28bbdda22e
     outline: []
     customData: 
     physicsShape: []
     bones: []
+<<<<<<< HEAD
     spriteID: ab7e6476d1a2c3f489785f74ded30269
+=======
+    spriteID: a4d33eedce01e5645844af24708fe371
+>>>>>>> 491b43330c99429bd9e51e3953f56e28bbdda22e
     internalID: 0
     vertices: []
     indices: 
@@ -4554,6 +4577,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
+<<<<<<< HEAD
     nameFileIdTable:
       decorative_0: 21300000
       decorative_1: 21300002
@@ -4732,6 +4756,9 @@ TextureImporter:
       decorative_97: 21300194
       decorative_98: 21300196
       decorative_99: 21300198
+=======
+    nameFileIdTable: {}
+>>>>>>> 491b43330c99429bd9e51e3953f56e28bbdda22e
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

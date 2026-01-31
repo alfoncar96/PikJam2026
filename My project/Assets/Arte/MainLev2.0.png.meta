@@ -1,10 +1,15 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: aa9f510a84a336543994cb3b86dea09f
+=======
+guid: 7b978bd92f104204c86a69f46240f5c3
+>>>>>>> 491b43330c99429bd9e51e3953f56e28bbdda22e
 AssetOrigin:
   serializedVersion: 1
   productId: 167274
   packageName: RPG Worlds Caves
   packageVersion: 2.0
+<<<<<<< HEAD
   assetPath: Assets/RPGW_Caves/Sliced/MainLev2.0.png
   uploadId: 435856
 TextureImporter:
@@ -5496,6 +5501,12 @@ TextureImporter:
   - first:
       213: 21303656
     second: MainLev2.0_1828
+=======
+  assetPath: Assets/RPGW_Caves/MainLev2.0.png
+  uploadId: 435856
+TextureImporter:
+  internalIDToNameTable: []
+>>>>>>> 491b43330c99429bd9e51e3953f56e28bbdda22e
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -5608,19 +5619,32 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
+<<<<<<< HEAD
         y: 1504
         width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        y: 1259
+        width: 448
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+>>>>>>> 491b43330c99429bd9e51e3953f56e28bbdda22e
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: a50093d891ff441428f01b2bee5e7a59
       internalID: 21300000
+=======
+      spriteID: cd0bd115d95510749af11c6276d940f7
+      internalID: -920699741
+>>>>>>> 491b43330c99429bd9e51e3953f56e28bbdda22e
       vertices: []
       indices: 
       edges: []
@@ -5629,20 +5653,34 @@ TextureImporter:
       name: MainLev2.0_1
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 64
         y: 1504
         width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 480
+        y: 1152
+        width: 1152
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+>>>>>>> 491b43330c99429bd9e51e3953f56e28bbdda22e
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 6cc30376bf8654f4faf99bed11e69da8
       internalID: 21300002
+=======
+      spriteID: 20e24469db9688b41aae6509f13fb897
+      internalID: 689680525
+>>>>>>> 491b43330c99429bd9e51e3953f56e28bbdda22e
       vertices: []
       indices: 
       edges: []
@@ -5651,20 +5689,34 @@ TextureImporter:
       name: MainLev2.0_2
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 96
         y: 1504
         width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 480
+        y: 736
+        width: 1152
+        height: 544
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+>>>>>>> 491b43330c99429bd9e51e3953f56e28bbdda22e
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: fd798239a7c658b4d938858a4ce14500
       internalID: 21300004
+=======
+      spriteID: f2b0e6a6d00ad624b93b49e98430fc1c
+      internalID: -1655644447
+>>>>>>> 491b43330c99429bd9e51e3953f56e28bbdda22e
       vertices: []
       indices: 
       edges: []
@@ -5673,20 +5725,34 @@ TextureImporter:
       name: MainLev2.0_3
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 128
         y: 1504
         width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 0
+        y: 843
+        width: 448
+        height: 405
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+>>>>>>> 491b43330c99429bd9e51e3953f56e28bbdda22e
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 9ef593b1ae65c6e4e8723f58eb8ef078
       internalID: 21300006
+=======
+      spriteID: 2b09e5d1bcc151b42b85a289304be830
+      internalID: -1278353808
+>>>>>>> 491b43330c99429bd9e51e3953f56e28bbdda22e
       vertices: []
       indices: 
       edges: []
@@ -5695,6 +5761,7 @@ TextureImporter:
       name: MainLev2.0_4
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 160
         y: 1504
         width: 32
@@ -45147,12 +45214,21 @@ TextureImporter:
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
+=======
+        x: 0
+        y: 0
+        width: 1600
+        height: 832
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+>>>>>>> 491b43330c99429bd9e51e3953f56e28bbdda22e
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: af84927d33c2c1040b319d2e2372bfa3
       internalID: 21303594
       vertices: []
@@ -45837,6 +45913,10 @@ TextureImporter:
       bones: []
       spriteID: 194269eaf5d1e5242b3f48b8653218fb
       internalID: 21303656
+=======
+      spriteID: 19a821924e088f549b65a25715f3c165
+      internalID: 1468380797
+>>>>>>> 491b43330c99429bd9e51e3953f56e28bbdda22e
       vertices: []
       indices: 
       edges: []
@@ -45845,7 +45925,11 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
+<<<<<<< HEAD
     spriteID: 128578cb5865e014fba2fd6194b0f62a
+=======
+    spriteID: 8e5524abc2fc4854ab1b3f3019e3b82e
+>>>>>>> 491b43330c99429bd9e51e3953f56e28bbdda22e
     internalID: 0
     vertices: []
     indices: 
@@ -45853,6 +45937,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
+<<<<<<< HEAD
       entries: []
     nameFileIdTable:
       MainLev2.0_0: 21300000
@@ -47684,6 +47769,19 @@ TextureImporter:
       MainLev2.0_997: 21301994
       MainLev2.0_998: 21301996
       MainLev2.0_999: 21301998
+=======
+      entries:
+      - key: SpriteEditor.SliceOnImport
+        value: False
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      MainLev2.0_0: -920699741
+      MainLev2.0_1: 689680525
+      MainLev2.0_2: -1655644447
+      MainLev2.0_3: -1278353808
+      MainLev2.0_4: 1468380797
+>>>>>>> 491b43330c99429bd9e51e3953f56e28bbdda22e
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
