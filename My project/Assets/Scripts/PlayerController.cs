@@ -5,11 +5,15 @@ public class PlayerController : MonoBehaviour
 
     private Animator animator;
 
-    public float speed = 12;
+    public float speed = 5;
 
     Vector3 velocity;
 
     private new Rigidbody2D rigidbody;
+
+    GameObject inventarioCom;
+
+    private bool inventoryVisible = false;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -19,6 +23,10 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
 
         rigidbody = GetComponent<Rigidbody2D>();
+
+        inventarioCom = GameObject.FindGameObjectWithTag("InventarioCom");
+
+        inventarioCom.SetActive(false);
 
     }
 
@@ -52,6 +60,23 @@ public class PlayerController : MonoBehaviour
             velocity = Vector3.zero;
 
         }
+
+
+        if (Input.GetKeyDown(KeyCode.Tab) && !inventoryVisible)
+        {
+
+            
+            inventoryVisible = true;
+
+        } else if (Input.GetKeyDown(KeyCode.Tab))
+        {
+
+            inventoryVisible = false;
+
+        }
+
+        inventarioCom.SetActive(inventoryVisible);
+
 
     }
 
