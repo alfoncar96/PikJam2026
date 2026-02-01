@@ -11,8 +11,8 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: furniture_and_props_1363
-  m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -43250932, guid: 57384e3e200e7894ab6388c334a13241, type: 3}
+  m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
+  m_Sprite: {fileID: -43250932, guid: 60449fa6e9298224a961445b2d03667e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
