@@ -4,14 +4,14 @@ public class CowardAI : MonoBehaviour
 {
     public CowardState state;
 
-    PlayerVision vision;
+    //PlayerVision vision;
     Transform player;
     CowardMovement movement;
     CowardAttack attack;
 
     void Awake()
     {
-        vision = FindObjectOfType<PlayerVision>();
+        //vision = FindObjectOfType<PlayerVision>();
         player = GameObject.FindWithTag("Player").transform;
         movement = GetComponent<CowardMovement>();
         attack = GetComponent<CowardAttack>();
@@ -19,11 +19,11 @@ public class CowardAI : MonoBehaviour
 
     void Update()
     {
-        bool seen = vision.CanSee(transform.position);
+        //bool seen = vision.CanSee(transform.position);
 
-        if (seen)
-            state = CowardState.Fleeing;
-        else
+        //if (seen)
+        //    state = CowardState.Fleeing;
+        //else
             state = CowardState.Stalking;
 
         if (attack.CanAttack(player))

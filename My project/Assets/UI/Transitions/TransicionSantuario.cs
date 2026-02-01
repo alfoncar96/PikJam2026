@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class VisionConeRender : MonoBehaviour
+public class TransicionSantuario : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
