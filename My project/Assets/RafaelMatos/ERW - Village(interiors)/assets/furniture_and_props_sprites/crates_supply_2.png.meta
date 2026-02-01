@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 1986bd6cea0478f428e389fa0eab9c49
 AssetOrigin:
   serializedVersion: 1
@@ -7,6 +8,9 @@ AssetOrigin:
   packageVersion: 1.0
   assetPath: Assets/RafaelMatos/ERW - Village(interiors)/assets/furniture_and_props_sprites/crates_supply_2.png
   uploadId: 846012
+=======
+guid: 7eb7dbedcbc39ab4390e9665c88e394d
+>>>>>>> fdd4f03584e8b08b7bcf61cffb58dffe136988cc
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

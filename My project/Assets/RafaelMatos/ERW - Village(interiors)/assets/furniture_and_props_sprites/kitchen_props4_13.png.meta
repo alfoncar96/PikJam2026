@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 8c0948cdb15993a418d626381fa92f72
 AssetOrigin:
   serializedVersion: 1
@@ -7,6 +8,9 @@ AssetOrigin:
   packageVersion: 1.0
   assetPath: Assets/RafaelMatos/ERW - Village(interiors)/assets/furniture_and_props_sprites/kitchen_props4_13.png
   uploadId: 846012
+=======
+guid: a45308771a8b6944da3a7b5e265016f5
+>>>>>>> fdd4f03584e8b08b7bcf61cffb58dffe136988cc
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

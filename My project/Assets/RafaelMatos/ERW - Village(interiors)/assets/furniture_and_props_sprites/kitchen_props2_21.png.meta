@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 6d97e8fc7e80f6b44a36a8abdbaad5d1
 AssetOrigin:
   serializedVersion: 1
@@ -7,6 +8,9 @@ AssetOrigin:
   packageVersion: 1.0
   assetPath: Assets/RafaelMatos/ERW - Village(interiors)/assets/furniture_and_props_sprites/kitchen_props2_21.png
   uploadId: 846012
+=======
+guid: 2e95e4d26e96077428b61c96ed2913af
+>>>>>>> fdd4f03584e8b08b7bcf61cffb58dffe136988cc
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

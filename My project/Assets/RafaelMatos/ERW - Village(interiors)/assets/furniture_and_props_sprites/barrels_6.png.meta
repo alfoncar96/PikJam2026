@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 046d7f6063a669541a983d3071e97edc
 AssetOrigin:
   serializedVersion: 1
@@ -7,6 +8,9 @@ AssetOrigin:
   packageVersion: 1.0
   assetPath: Assets/RafaelMatos/ERW - Village(interiors)/assets/furniture_and_props_sprites/barrels_6.png
   uploadId: 846012
+=======
+guid: dad4e0da44346934da143de233dd3632
+>>>>>>> fdd4f03584e8b08b7bcf61cffb58dffe136988cc
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

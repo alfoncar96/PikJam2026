@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 7599b6eef2a3d1e4f91015179a44b3b7
 AssetOrigin:
   serializedVersion: 1
@@ -7,6 +8,9 @@ AssetOrigin:
   packageVersion: 1.0
   assetPath: Assets/RafaelMatos/ERW - Village(interiors)/assets/windows_and_doors_sprites/no_sunlight/windows2-_8.png
   uploadId: 846012
+=======
+guid: be1dfaaf4e2d923498ee1d8cdc4dff71
+>>>>>>> fdd4f03584e8b08b7bcf61cffb58dffe136988cc
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

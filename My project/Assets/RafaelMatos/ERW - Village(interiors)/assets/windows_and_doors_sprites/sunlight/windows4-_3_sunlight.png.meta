@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 536d3b0f4f0c07940bdf5b302f3f23ca
 AssetOrigin:
   serializedVersion: 1
@@ -7,6 +8,9 @@ AssetOrigin:
   packageVersion: 1.0
   assetPath: Assets/RafaelMatos/ERW - Village(interiors)/assets/windows_and_doors_sprites/sunlight/windows4-_3_sunlight.png
   uploadId: 846012
+=======
+guid: 681761bb953833a4ab721b961dbfb609
+>>>>>>> fdd4f03584e8b08b7bcf61cffb58dffe136988cc
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 7e70dd43b173b2d44bc6ace3c119e8e2
 AssetOrigin:
   serializedVersion: 1
@@ -8,6 +9,9 @@ AssetOrigin:
   assetPath: Assets/RafaelMatos/ERW - Village(interiors)/assets/furniture_and_props_sprites/Slice
     45.png
   uploadId: 846012
+=======
+guid: 1619a90644b5a5448b7bc5e6c96a350f
+>>>>>>> fdd4f03584e8b08b7bcf61cffb58dffe136988cc
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
