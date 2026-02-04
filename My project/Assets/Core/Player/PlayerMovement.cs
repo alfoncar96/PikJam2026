@@ -3,37 +3,44 @@ using UnityEngine.InputSystem; // Importante para el Input System moderno
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float speed = 4f;          // Velocidad del Player
-    private Rigidbody2D rb;           // Rigidbody del Player
-    private Animator anim;            // Animator para las animaciones
-    private Vector2 movement;         // Vector de movimiento
-
-    void Start()
-    {
-        rb = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
-    }
+    public float speed = 5f;
+    public Rigidbody2D rb;
+    public Animator animator;
 
     void Update()
     {
-        // Reinicia movimiento
-        movement = Vector2.zero;
+        float x = Input.GetAxisRaw("Horizontal");
+        float y = Input.GetAxisRaw("Vertical");
 
-        // Detecta las teclas presionadas usando Input System moderno
-        if (Keyboard.current.wKey.isPressed) movement.y += 1;
-        if (Keyboard.current.sKey.isPressed) movement.y -= 1;
-        if (Keyboard.current.aKey.isPressed) movement.x -= 1;
-        if (Keyboard.current.dKey.isPressed) movement.x += 1;
+        Vector2 input = new Vector2(x, y);
 
-        // Actualiza el Animator
-        anim.SetFloat("MoveX", movement.x);
-        anim.SetFloat("MoveY", movement.y);
-        anim.SetBool("IsMoving", movement != Vector2.zero);
-    }
+        if (input.magnitude > 1)
+            input.Normalize();
 
-    void FixedUpdate()
-    {
-        // Movimiento físico del Player
-        rb.MovePosition(rb.position + movement.normalized * speed * Time.fixedDeltaTime);
+        float animX = 0;
+        float animY = 0;
+
+        if (Mathf.Abs(x) > Mathf.Abs(y))
+        {
+            animX = Mathf.Sign(x);
+            animY = 0;
+        }
+        else if (Mathf.Abs(y) > Mathf.Abs(x))
+        {
+            animY = Mathf.Sign(y);
+            animX = 0;
+        }
+
+        bool moving = input != Vector2.zero;
+
+        animator.SetBool("IsMoving", moving);
+
+        if (moving)
+        {
+            animator.SetFloat("MoveX", animX);
+            animator.SetFloat("MoveY", animY);
+        }
+
+        rb.linearVelocity = input * speed;
     }
 }

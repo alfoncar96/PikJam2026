@@ -9,17 +9,30 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
+    path: Assets/Scenes/Bosque/Bosque.unity
+    guid: f6470b48aed921144b8e42eabf769e7d
+  - enabled: 1
     path: Assets/Scenes/Jugar.unity
     guid: 69b2349a3654f7548b9d32b23fe5ea06
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Opciones.unity
     guid: 7e3ea221fa7134d4bbbbdbf90dba7d91
   - enabled: 1
     path: Assets/Scenes/Salir.unity
     guid: ac3fe6094c0231e4e9737bfefee36e66
   - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Escena_mapa.unity
     guid: bbdc9b75fbb30824e9beeb1a314365e6
+  - enabled: 1
+    path: Assets/Scenes/Cueva/Cueva.unity
+    guid: add126730eb3cb24290db692d13a4c42
+  - enabled: 1
+    path: Assets/Scenes/Muelle/Muelle.unity
+    guid: 258012ce71114794588b36ebf3aca8ad
+  - enabled: 1
+    path: Assets/Scenes/Santuario/Santuario.unity
+    guid: 66bdd8f1fea61724e95d39a41d195203
   m_configObjects:
-    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100,
+      type: 3}
   m_UseUCBPForAssetBundles: 0

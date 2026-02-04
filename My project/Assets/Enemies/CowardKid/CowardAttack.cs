@@ -16,6 +16,9 @@ public class CowardAttack : MonoBehaviour
         attacking = true;
 
         Debug.Log("JUMPSCARE por la espalda");
-        // aquí cámara, sonido, muerte…
+        // Aquí pones sonido, cámara, animación de muerte...
+        // Por ejemplo:
+        // Camera.main.GetComponent<ScreenFader>().FadeToBlack();
+        // player.GetComponent<PlayerHealth>().Die();
     }
 }

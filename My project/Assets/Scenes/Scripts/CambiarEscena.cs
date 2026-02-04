@@ -2,8 +2,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class CambiarEscena : MonoBehaviour
 {
-    public void LoadScene(string sceneName)
+    public void LoadScene(string Bosque)
     {
-        SceneManager.LoadScene(sceneName);
+        SceneManager.LoadScene(Bosque);
     }
 }
